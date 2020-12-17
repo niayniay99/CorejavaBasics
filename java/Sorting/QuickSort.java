@@ -9,6 +9,7 @@ public class QuickSort {
         System.out.println("Before Sorting");
         System.out.println(Arrays.toString(array));
 
+        //method for sorting
         sort(array,0,array.length - 1);
 
         System.out.println("After Sorting");
