@@ -13,5 +13,7 @@ public class PositiveOrNegative
 			System.out.println("Number is Negative");
 		else
 			System.out.println("Zero is neither Negative nor Positive Number");
+
+			sc.close();
 	}
 }

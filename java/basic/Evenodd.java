@@ -11,6 +11,7 @@ public class Evenodd
 		System.out.println("Number is even");
 		else
 		System.out.println("Number is odd");
+		sc.close();
 	}
 	
 }

@@ -19,6 +19,6 @@ public class SwapApproach3
 	
 	System.out.println("After swapping  a&b : ");
 	System.out.println("a = "+a+", b = "+b);
-	
+		sc.close();
 	}
 }
