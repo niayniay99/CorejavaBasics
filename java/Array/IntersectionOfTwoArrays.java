@@ -12,6 +12,6 @@ public class IntersectionOfTwoArrays {
         for(int v :array2)
         System.out.println(v+"");
         
-        int arraysize;
+     //   int arraysize;
     }
 }
