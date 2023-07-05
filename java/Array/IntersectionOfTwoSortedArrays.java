@@ -21,7 +21,7 @@ public class IntersectionOfTwoSortedArrays {
 
         int interSectionArray[] = new int[interSectionLength];
         int i = 0,j = 0, k = 0;
-
+        // merging the common elements of both the array.
         while(i < array1.length && j < array2.length)
             if(array1[i] == array2[j] ){
                 interSectionArray[k++] = array1[i];
