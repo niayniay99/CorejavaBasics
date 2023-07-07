@@ -35,8 +35,5 @@ public class UnionOfTwoArrays {
         for(int i =0; i< k;i++)
             System.out.println(unionArray[i]+" ");
 
-
-        
-    
     }
 }
