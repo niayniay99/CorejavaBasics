@@ -1,5 +1,6 @@
 package java.Array;
 
+
 import java.util.ArrayList;
 
 public class UnionOfSortedArrays {
@@ -10,6 +11,44 @@ public class UnionOfSortedArrays {
         ArrayList<Integer> list = new ArrayList<>();
 
         int i = 0, j = 0;
+        while(i < array1.length && j < array2.length)
+        {    if(array1[i] < array2[j]){
+                list.add(array1[i]);
+                i++;
+                }
+            else if(array1[i] > array2[j])
+            {    list.add(array1[j]);
+                j++;
+            }
+            else{
+                list.add(array1[i]);
+                i++;
+                j++;
+            }
+        }
+        while(i < array1.length){
+            list.add(array1[i]);
+            i++;
+        }
+
+        while(j < array2.length){
+            list.add(array2[j]);
+            j++;
+        }
+        Integer unionArray[] = list.toArray(new Integer[list.size()]);
+
+        System.out.println("Given Array 1 is : ");
+        for(int v : array1 )
+            System.out.println(v + " ");
+       
+        System.out.println("Given Array 2 is : ");
+        for(int v : array2 )
+            System.out.println(v + " ");
         
-    }
+        System.out.println("Union of two Array is : ");
+        for(int v : unionArray )
+            System.out.println(v + " ");
+           
+        }
+
 }
