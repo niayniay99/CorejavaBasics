@@ -13,7 +13,7 @@ public class UnionArrayUsingHashset {
         //add all elements of array1
         set.addAll(Arrays.asList(array1));
         // add all elements of array2
-        // duplicate elements will not be added
+        // duplicate elements will not be added 
         set.addAll(Arrays.asList(array2));
 
         //convert HashSet to array[]
