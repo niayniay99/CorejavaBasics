@@ -18,6 +18,7 @@ public class SwapTwoStrings {
         System.out.println("After Swapping : ");
         System.out.println("String 1 is  "+str1);
         System.out.println("String 2 is "+str2);
-        
+        sc.close();
+
     }
 }
