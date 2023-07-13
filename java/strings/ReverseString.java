@@ -9,6 +9,7 @@ public class ReverseString {
         String str = sc.nextLine();
         String reversedString = reverseString(str);
         System.out.println("Reversed String is "+reversedString);
+        sc.close();
     }
 
     public static String reverseString(String str)
