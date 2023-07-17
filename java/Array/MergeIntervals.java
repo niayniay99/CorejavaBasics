@@ -20,6 +20,7 @@ public class MergeIntervals {
 
         if(intervals.length != 0 || intervals != null )
         {
+            //sorted in ascending order.
         Arrays.sort(intervals, (a,b) -> a[0] - b[0]);
         
         int start = intervals[0][0];
