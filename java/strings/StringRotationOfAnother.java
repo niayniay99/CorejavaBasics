@@ -14,6 +14,7 @@ public class StringRotationOfAnother {
             System.out.println("String 2 is rotation of String 1");
         else
             System.out.println("No String 2 is NOT a rotation of String 1");
+        sc.close();
     }
 
     private static boolean checkStringRotation(String str1, String str2)
