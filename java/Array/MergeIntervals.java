@@ -14,9 +14,9 @@ public class MergeIntervals {
         mergeIntervals(arr);
     }
 
-    public int[][]  mergeIntervals(int[][] intervals){
+    static int[][]  mergeIntervals(int[][] intervals){
 
-        List<int[]> answer = new ArrayList();
+        List<int[]> answer = new ArrayList<>();
 
         if(intervals.length != 0 || intervals != null )
         {

@@ -9,6 +9,7 @@ public class SubsetsOfString {
         System.out.println("Enter a String : ");
         String str = sc.nextLine().trim();
         subsetOfString(str);
+        sc.close();
     }    
 
     public static void subsetOfString(String str)
