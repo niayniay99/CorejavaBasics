@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Pattern5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number of Rows for Floyd's Triangle to print");
+        System.out.println("Enter the number of Rows for Pattern five to print");
         int rows = Integer.parseInt(sc.nextLine().trim());
 
 
