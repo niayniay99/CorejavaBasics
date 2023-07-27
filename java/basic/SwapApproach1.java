@@ -13,7 +13,7 @@ public class SwapApproach1
 	System.out.println("Before swapping  a&b : ");
 	System.out.println("a = "+a+", b = "+b);
 	
-	//using operators
+	//using arithmetic operators + - 
 	a = a+b;
 	b = a-b;
 	a = a-b;

@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Pattern7 {
   public static void main(String[] args) {
          Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number of Rows for Floyd's Triangle to print");
+        System.out.println("Enter the number of Rows Triangle to print");
         int rows = Integer.parseInt(sc.nextLine().trim());
 
 
