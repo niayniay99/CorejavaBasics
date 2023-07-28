@@ -9,6 +9,7 @@ public class Pattern6 {
         System.out.println("Enter the number of Rows for Floyd's Triangle to print");
         int rows = Integer.parseInt(sc.nextLine().trim());
 
+        System.out.println("Logic of TRIANGLE PATTERN IS BELOW");
 
         // logic
         int value = rows;        
