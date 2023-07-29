@@ -8,7 +8,7 @@ public class Pattern3 {
         int rows = Integer.parseInt(sc.nextLine().trim());
 
 
-        // logic
+        // logic for forward number pattern.
         
         for(int i = 1;i< rows;i++)
         {
