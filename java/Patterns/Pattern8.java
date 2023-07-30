@@ -1,5 +1,5 @@
 package java.Patterns;
-// Pyramid pattern.
+// Pyramid patterns.
 
 public class Pattern8 {
     public static void main(String[] args) {
